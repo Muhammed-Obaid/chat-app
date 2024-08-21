@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-container::-webkit-scrollbar{
+  width: 3px;
+}
+.chat-container::-webkit-scrollbar-track{
+  /* background: rgb(13, 13, 112);  */
+
+}
+.chat-container::-webkit-scrollbar-thumb{
+  background: rgb(160, 160, 238); 
+}
+
+
+.main{
+  display: flex;
+
+}
+.main.me{
+  flex-direction: row-reverse;
+}
+.main p {
+  background-color: rgb(211, 203, 203);
+}
+.main.me p{
+  background-color: rgb(134 239 172)
+}
+
+.main strong{
+  color: rgb(46, 46, 182);
+}
+
+.main.me strong{
+  color: rgb(167, 63, 63);
+}
